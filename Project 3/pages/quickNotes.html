@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quick Notes</title>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>FocusHub</h1>
+      <span class="inspire">Great for starting your Day</span>
+      <div class="dashboard-grid">
+        <section class="card timer-widget">
+          <a href="../index.html" class="widget focus-timer">Focus Timer</a>
+        </section>
+        <section class="card notes-widget">
+          <a href="quickNotes.html" class="widget quick-notes">Quick Notes</a>
+        </section>
+        <section class="card todo-widget">
+          <a href="todayFocus.html" class="widget today-focus">Today Focus</a>
+        </section>
+      </div>
+    </header>
+    <main>
+      <div class="input-container">
+        <textarea class="noteInput" placeholder="Add a note"></textarea>
+        <button class="addBtn">Add Note</button>
+      </div>
+      <div class="notesContainer"></div>
+    </main>
+    <script src="../scripts/quickNotes.js"></script>
+  </body>
+</html>

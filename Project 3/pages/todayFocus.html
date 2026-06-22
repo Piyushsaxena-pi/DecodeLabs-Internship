@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Today Focus</title>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>FocusHub</h1>
+      <span class="inspire">Great for starting your Day</span>
+      <div class="dashboard-grid">
+        <section class="card timer-widget">
+          <a href="../index.html" class="widget focus-timer">Focus Timer</a>
+        </section>
+        <section class="card notes-widget">
+          <a href="quickNotes.html" class="widget quick-notes">Quick Notes</a>
+        </section>
+        <section class="card todo-widget">
+          <a href="todayFocus.html" class="widget today-focus">Today Focus</a>
+        </section>
+      </div>
+    </header>
+    <main>
+      <div class="grid-container">
+        <input
+          class="js-todo-input userInput"
+          type="text"
+          placeholder="Enter Your Goals"
+          required
+        />
+        <input class="js-todo-date userDate" type="date" required/>
+        <button class="js-btn-todo addTodo" disabled ">
+          Add
+        </button>
+      </div>
+      <div class="js-todo-container grid-container"></div>
+    </main>
+    <script src="../scripts/todayFocus.js"></script>
+  </body>
+</html>
